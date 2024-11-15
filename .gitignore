@@ -36,3 +36,5 @@ terraform.rc
 # SSH Keys
 id_rsa
 id_rsa.pub
+
+.idea
