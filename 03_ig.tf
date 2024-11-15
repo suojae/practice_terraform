@@ -1,3 +1,7 @@
-resource "aws_route_table" "ssuojae-rt" {
-  vpc_id = ""
+resource "aws_internet_gateway" "ssuojae_ig" {
+  vpc_id = aws_vpc.ssuojae_vpc.id
+
+  tags = {
+    Name = "ssuojae-ig"
+  }
 }

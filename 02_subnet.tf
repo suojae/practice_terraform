@@ -54,7 +54,7 @@ resource "aws_subnet" "ssuojae_dba" {
   }
 }
 
-# dba 서브넷
+# dbc 서브넷
 resource "aws_subnet" "ssuojae_dbc" {
   vpc_id            = aws_vpc.ssuojae_vpc.id
   cidr_block        = "10.0.5.0/24"
